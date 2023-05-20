@@ -7,6 +7,7 @@ import LocalStorage from './components/LocalStorage';
 import OutsideClick from './components/OutsideClick';
 import MediaQuery from './components/MediaQuery';
 import Toggle from './components/Toggle';
+import DocumentTitle from './components/DocumentTitle';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <OutsideClick />
       <MediaQuery />
       <Toggle />
+      <DocumentTitle />
 
     </div>
   );
