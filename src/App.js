@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import useLocalStorage from './hooks/useLocalStorage';
+import { useRef, useState } from 'react';
+import useOutsideClick from './hooks/useOutsideClick';
+import LocalStorage from './components/LocalStorage';
+import OutsideClick from './components/OutsideClick';
+import MediaQuery from './components/MediaQuery';
+import Toggle from './components/Toggle';
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <LocalStorage />
+      <OutsideClick />
+      <MediaQuery />
+      <Toggle />
+
     </div>
   );
 }
