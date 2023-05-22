@@ -8,6 +8,7 @@ import OutsideClick from './components/OutsideClick';
 import MediaQuery from './components/MediaQuery';
 import Toggle from './components/Toggle';
 import DocumentTitle from './components/DocumentTitle';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <MediaQuery />
       <Toggle />
       <DocumentTitle />
+      <ScrollToTop />
 
     </div>
   );
