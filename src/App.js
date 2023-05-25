@@ -9,7 +9,7 @@ import MediaQuery from './components/MediaQuery';
 import Toggle from './components/Toggle';
 import DocumentTitle from './components/DocumentTitle';
 import LocationHook from './components/LocationHook';
-
+import Button from './elements/Button';
 function App() {
 
 
@@ -22,6 +22,7 @@ function App() {
       <Toggle />
       <DocumentTitle />
       <LocationHook/>
+      <Button>Hello world</Button>
 
     </div>
   );
